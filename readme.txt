@@ -1,13 +1,10 @@
-1. Run the project
-In OKcu/Okcu directory, run the following command
-$  python start.py username password [--o data_path] [--n max_num]
+1. I scraped all product data from three ecommerce site and saved them into MonogoDB.  
+http://uae.souq.com/ae-en/  
+https://en-ae.wadi.com/  
+https://en-ae.namshi.com/   
 
-2. Result
-After finishing the program, you can see the new directory(data) in OKcu/.
-In this directory, there are data files according to each person.
+2. I just finished one scrapy project that scraped data from shopganz.com.  
+It needs to login for scraping data.   
 
-3. Working environment
-
-- python 2.7
-- python scrapy1.0.5
-- ubuntu 14.04
+3. I developed scraping program which scraped person information including images from the dating web site(www.okcupid.com) by using python scrapy1.1.0.   
+The program scraped 1000 people(you can change the number) at once by default.
